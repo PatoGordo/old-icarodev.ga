@@ -3,6 +3,7 @@
     <app-header></app-header>
     <app-navbar></app-navbar>
     <router-view></router-view>
+    <app-footer></app-footer>
     <a v-if="$route.name == 'home'" class="scroll-btn" @click="scrollToTop()"><ion-icon name="chevron-up-circle-outline"></ion-icon></a>
   </div>
 </template>
@@ -10,6 +11,8 @@
 <script>
   import AppNavbar from './components/AppNavbar'
   import AppHeader from './components/AppHeader'
+  import AppFooter from './components/AppFooter'
+
 
   export default {
     name: 'App',
@@ -20,7 +23,8 @@
     },
     components: {
       AppNavbar,
-      AppHeader
+      AppHeader,
+      AppFooter
     }
   }
 </script>

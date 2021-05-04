@@ -1,5 +1,5 @@
 {
-  "name": "icaro-dev",
+  "name": "icarodevga",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -47,5 +47,7 @@
   ],
   "_id": "vue-cli-template@1.0.0",
   "license": "MIT",
-  "readme": "ERROR: No README data found!"
+  "readme": "ERROR: No README data found!",
+  "keywords": [],
+  "description": ""
 }
