@@ -58,7 +58,7 @@
         this.contact.id =  '#'+Math.floor(1000 + Math.random() * 9000)
         this.submitButtonDisabled = true
         emailjs.send('service_enfl7lo', 'template_a4eufer', this.contact)
-        .then((res) => {}, (error) => {
+        .then(() => {}, (error) => {
           console.log('[EMAILJS ERROR]: ', error)
         })
 
