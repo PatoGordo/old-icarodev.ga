@@ -5,6 +5,7 @@
     <ul :class="isOpen? 'on' : 'off'">
       <li @click="isOpen = false" v-scroll-to="{el:'#skills', offset: -125}"><a>Skills</a></li>
       <li @click="isOpen = false" v-scroll-to="{el:'#projects', offset: -125}"><a>Projects</a></li>
+      <li @click="isOpen = false" v-scroll-to="{el:'#contacts', offset: -85}"><a>Contacts</a></li>
     </ul>
 
     <a class="menu-btn" @click="isOpen = !isOpen"><ion-icon :name="isOpen? 'close-outline' : 'menu-outline'"></ion-icon></a>
