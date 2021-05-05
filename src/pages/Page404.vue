@@ -7,6 +7,7 @@
 
 <script>
   export default {
+    name: 'Page404',
     created() {
       document.title = '404'
     }

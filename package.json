@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-free": "5.15.3",
     "@vue/cli": "^4.5.9",
     "core-js": "^3.6.5",
+    "emailjs-com": "2.6.4",
     "firebase": "^8.4.3",
     "vue": "^2.6.11",
     "vue-router": "^3.5.1",

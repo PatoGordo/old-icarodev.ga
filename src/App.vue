@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <app-header></app-header>
-    <app-navbar></app-navbar>
+    <AppHeader></AppHeader>
+    <AppNavbar></AppNavbar>
     <router-view></router-view>
-    <app-footer></app-footer>
+    <AppFooter></AppFooter>
     <a v-if="$route.name == 'home'" class="scroll-btn" @click="scrollToTop()"><ion-icon name="chevron-up-circle-outline"></ion-icon></a>
   </div>
 </template>
@@ -51,6 +51,17 @@
   }
   .yellow {
     color: #FFD54F;
+  }
+  .only-screen-reader {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
   }
 </style>
 

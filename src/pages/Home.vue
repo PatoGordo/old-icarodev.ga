@@ -1,25 +1,22 @@
 <template>
   <div>
-    <skills></skills>
-    <recent-projects></recent-projects>
-    <!-- <contacts></contacts> -->
+    <Skills></Skills>
+    <RecentProjects></RecentProjects>
+    <Contacts></Contacts>
   </div>
 </template>
 
 <script>
   import Skills from '../components/Skills'
   import RecentProjects from '../components/RecentProjects'
-  // import Contacts from '../components/Contacts'
+  import Contacts from '../components/Contacts'
 
   export default {
+    name: 'Home',
     components: {
       Skills,
-      RecentProjects
-      // Contacts
+      RecentProjects,
+      Contacts
     }
   }
 </script>
-
-<style scoped>
-  
-</style>
